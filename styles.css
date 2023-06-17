@@ -3294,9 +3294,9 @@ a.pika-single .pika-button:hover {
     background-size: 100px
 }
 
-body.ff-modernization-update .canonical-card-error .canonical-card-error-card {
+/*body.ff-modernization-update .canonical-card-error .canonical-card-error-card {
     margin-bottom: 8px
-}
+}*/
 
 .canonical-stretch {
     width: auto!important
@@ -4405,9 +4405,9 @@ body,html {
     z-index: 25
 }
 
-body.ff-modernization-update .window {
+/*body.ff-modernization-update .window {
     border-radius: 8px
-}
+}*/
 
 .window-wrapper {
     outline: none
@@ -6772,18 +6772,18 @@ a.select-tags-list-item-edit-button:hover {
     margin-left: 16px
 }
 
-body.ff-modernization-update .board-header.board-header-rewrite {
+/*body.ff-modernization-update .board-header.board-header-rewrite {
     background: var(--board-header-background-color)
-}
+}*/
 
-body.ff-modernization-update .board-header-legacy {
+/*body.ff-modernization-update .board-header-legacy {
     padding-right: 8px;
     padding-top: 4px
-}
+}*/
 
-body.ff-modernization-update .board-header-rewrite {
+/*body.ff-modernization-update .board-header-rewrite {
     padding-bottom: 0
-}
+}*/
 
 .board-header-popover {
     margin-bottom: -8px
@@ -6825,9 +6825,9 @@ body.ff-modernization-update .board-header-rewrite {
     font-size: 8px
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-facepile {
+/*body.ff-modernization-update .board-header-legacy .board-header-facepile {
     margin-top: 8px
-}
+}*/
 
 .board-header-btns {
     display: block;
@@ -6838,9 +6838,9 @@ body.ff-modernization-update .board-header-legacy .board-header-facepile {
     float: left
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btns.mod-left {
+/*body.ff-modernization-update .board-header-legacy .board-header-btns.mod-left {
     margin-top: 8px
-}
+}*/
 
 .board-header-btns.mod-right {
     float: right
@@ -6850,9 +6850,9 @@ body.ff-modernization-update .board-header-legacy .board-header-btns.mod-left {
     float: left
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btns.mod-right .board-header-btn-react-container:not(.pup-header-btns) {
+/*body.ff-modernization-update .board-header-legacy .board-header-btns.mod-right .board-header-btn-react-container:not(.pup-header-btns) {
     margin-top: 8px
-}
+}*/
 
 .board-header-btn {
     border-radius: 3px;
@@ -6875,9 +6875,9 @@ body.ff-modernization-update .board-header-legacy .board-header-btns.mod-right .
     display: none
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn {
+/*body.ff-modernization-update .board-header-legacy .board-header-btn {
     margin: 8px 4px 4px 0
-}
+}*/
 
 .board-header-btn:active,.board-header-btn:hover {
     color: var(--dynamic-text);
@@ -6934,9 +6934,9 @@ body.ff-modernization-update .board-header-legacy .board-header-btn {
     position: relative
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn-template-badge {
+/*body.ff-modernization-update .board-header-legacy .board-header-btn-template-badge {
     margin-top: 8px
-}
+}*/
 
 .board-header-btn-name-org-logo-container {
     align-items: center;
@@ -6971,9 +6971,9 @@ body.ff-modernization-update .board-header-legacy .board-header-btn-template-bad
     color: var(--dynamic-icon,#fff)
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn-member-count {
+/*body.ff-modernization-update .board-header-legacy .board-header-btn-member-count {
     margin: 10px 4px 0 -2px
-}
+}*/
 
 .board-header-btn-join-board {
     margin: 0 4px 0 8px;
@@ -6987,9 +6987,9 @@ body.ff-modernization-update .board-header-legacy .board-header-btn-member-count
     margin: 8px 8px 12px 4px
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn-divider {
+/*body.ff-modernization-update .board-header-legacy .board-header-btn-divider {
     margin: 16px 8px 8px 4px
-}
+}*/
 
 .board-header-btn-without-icon {
     padding-left: 12px
@@ -7069,9 +7069,9 @@ body.ff-modernization-update .board-header-legacy .board-header-btn-divider {
     padding: 0 12px
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn.mod-board-name {
+/*body.ff-modernization-update .board-header-legacy .board-header-btn.mod-board-name {
     margin-top: 8px
-}
+}*/
 
 .board-header-btn.mod-board-name.is-editing .board-name-input {
     display: block
@@ -7347,9 +7347,9 @@ html[data-color-mode=dark] .body-static-color-board-background {
     }
 }
 
-.board-header-rewrite~.board-canvas #board,body.ff-modernization-update #board {
+/*.board-header-rewrite~.board-canvas #board,body.ff-modernization-update #board {
     margin-top: 12px
-}
+}*/
 
 #board.collapsed-workspace-nav {
     padding-left: 16px
@@ -7380,9 +7380,9 @@ html[data-color-mode=dark] .body-static-color-board-background {
     background: linear-gradient(to bottom,var(--board-header-background-color),#0000 80px,#0000)
 }
 
-body.ff-modernization-update .board-header-legacy~.board-canvas {
+/*body.ff-modernization-update .board-header-legacy~.board-canvas {
     background: none
-}
+}*/
 
 .board-header-btn {
     transition: .1s ease
@@ -8899,17 +8899,17 @@ a.collections-info .collections-explainer-close:hover {
     margin-right: 8px
 }
 
-body.ff-modernization-update .list-wrapper-with-margins {
+/*body.ff-modernization-update .list-wrapper-with-margins {
     margin: 0 6px
-}
+}*/
 
-body.ff-modernization-update .list-wrapper-with-margins:first-child {
+/*body.ff-modernization-update .list-wrapper-with-margins:first-child {
     margin-left: 12px
-}
+}*/
 
-body.ff-modernization-update .list-wrapper-with-margins:last-child {
+/*body.ff-modernization-update .list-wrapper-with-margins:last-child {
     margin-right: 12px
-}
+}*/
 
 .list {
     --list-background-color: var(--tr-background-list,#ebecf0);
@@ -8963,9 +8963,9 @@ body.ff-modernization-update .list-wrapper-with-margins:last-child {
     --list-text-color: var(--ds-text-subtle,#5e6c84)
 }
 
-body.ff-modernization-update .list {
+/*body.ff-modernization-update .list {
     border-radius: 12px
-}
+}*/
 
 .list-header {
     flex: 0 0 auto;
@@ -8998,9 +8998,9 @@ body.ff-modernization-update .list {
     padding-right: 112px
 }
 
-body.ff-modernization-update .list-header {
+/*body.ff-modernization-update .list-header {
     padding: 14px 8px
-}
+}*/
 
 .list-header-name-assist {
     display: none
@@ -9034,9 +9034,9 @@ body.ff-modernization-update .list-header {
     display: inline-block
 }
 
-body.ff-modernization-update .list-header-num-cards {
+/*body.ff-modernization-update .list-header-num-cards {
     margin: 0 12px
-}
+}*/
 
 .list-header-extras {
     position: absolute;
@@ -9045,10 +9045,10 @@ body.ff-modernization-update .list-header-num-cards {
     z-index: 1
 }
 
-body.ff-modernization-update .list-header-extras {
+/*body.ff-modernization-update .list-header-extras {
     right: 8px;
     top: 8px
-}
+}*/
 
 .list-header-extras-menu,.list-header-extras-subscribe {
     color: var(--list-text-color);
@@ -9113,17 +9113,17 @@ a.list-header-extras-menu:hover {
     width: 4px
 }
 
-body.ff-modernization-update .list-cards {
+/*body.ff-modernization-update .list-cards {
     display: flex;
     flex-direction: column;
     gap: 7px;
     justify-content: space-between;
     margin: 0 4px
-}
+}*/
 
-body.ff-modernization-update .list-cards.has-margin-bottom {
+/*body.ff-modernization-update .list-cards.has-margin-bottom {
     margin-bottom: 7px
-}
+}*/
 
 .card-composer-container {
     display: flex;
@@ -9136,15 +9136,15 @@ body.ff-modernization-update .list-cards.has-margin-bottom {
     margin: 0 8px 0 0
 }
 
-body.ff-modernization-update .card-composer-container {
+/*body.ff-modernization-update .card-composer-container {
     flex-shrink: 0;
     max-height: revert;
     min-height: revert
-}
+}*/
 
-body.ff-modernization-update .card-composer-container .card-templates-button {
+/*body.ff-modernization-update .card-composer-container .card-templates-button {
     margin: 4px 8px 0 0
-}
+}*/
 
 .open-card-composer {
     border-radius: 3px;
@@ -9181,15 +9181,15 @@ a.open-card-composer:hover {
     background-color: var(--ds-background-neutral-pressed,#091e4221)
 }
 
-body.ff-modernization-update .open-card-composer {
+/*body.ff-modernization-update .open-card-composer {
     border-radius: 8px;
     margin: 8px 0 8px 8px;
     padding: 4px 8px 4px 6px
-}
+}*/
 
-body.ff-modernization-update .open-card-composer .icon-add {
+/*body.ff-modernization-update .open-card-composer .icon-add {
     margin-right: 6px
-}
+}*/
 
 .list-wrapper.placeholder {
     background-color: #0000001f;
@@ -9198,9 +9198,9 @@ body.ff-modernization-update .open-card-composer .icon-add {
     box-shadow: none
 }
 
-body.ff-modernization-update .list-wrapper.placeholder {
+/*body.ff-modernization-update .list-wrapper.placeholder {
     border-radius: 12px
-}
+}*/
 
 .body-custom-board-background .list-wrapper.placeholder {
     background-color: #0000003d
@@ -9298,28 +9298,28 @@ body.ff-modernization-update .list-wrapper.placeholder {
     margin-right: 2px
 }
 
-body.ff-modernization-update .list-wrapper.mod-add {
+/*body.ff-modernization-update .list-wrapper.mod-add {
     border-radius: 12px;
     padding: 8px
-}
+}*/
 
-body.ff-modernization-update .list-wrapper.mod-add .list-name-input {
+/*body.ff-modernization-update .list-wrapper.mod-add .list-name-input {
     font-weight: 600;
     height: 32px
-}
+}*/
 
-body.ff-modernization-update .list-wrapper.mod-add .list-name-input::placeholder {
+/*body.ff-modernization-update .list-wrapper.mod-add .list-name-input::placeholder {
     font-weight: 400
-}
+}*/
 
-body.ff-modernization-update .list-wrapper.mod-add .list-add-controls {
+/*body.ff-modernization-update .list-wrapper.mod-add .list-add-controls {
     margin: 8px 0 0
-}
+}*/
 
-body.ff-modernization-update .list-wrapper.mod-add.is-idle .list-add-controls {
+/*body.ff-modernization-update .list-wrapper.mod-add.is-idle .list-add-controls {
     height: 0;
     margin: 0
-}
+}*/
 
 .body-light-board-background .list-wrapper.mod-add.is-idle {
     background-color: #00000014
@@ -9394,10 +9394,10 @@ textarea.mod-list-name.is-editing,textarea.mod-list-name:focus {
     }
 }
 
-body.ff-modernization-update textarea.mod-list-name {
+/*body.ff-modernization-update textarea.mod-list-name {
     padding: 4px 8px 4px 12px;
     width: 224px
-}
+}*/
 
 textarea.list-card-composer-textarea,textarea.list-card-composer-textarea:focus {
     background: none;
@@ -9415,13 +9415,13 @@ textarea.list-card-composer-textarea,textarea.list-card-composer-textarea:focus 
     padding-bottom: 8px
 }
 
-body.ff-modernization-update .card-composer {
+/*body.ff-modernization-update .card-composer {
     padding-bottom: 0
-}
+}*/
 
-body.ff-modernization-update .cc-controls {
+/*body.ff-modernization-update .cc-controls {
     margin-top: 8px
-}
+}*/
 
 .cc-controls-section {
     float: left
@@ -11728,11 +11728,11 @@ html[data-color-mode=dark] .description-content-fade-button {
     color: var(--ds-text,#172b4d)
 }
 
-body.ff-modernization-update :is(.list-card,.card-composer) {
+/*body.ff-modernization-update :is(.list-card,.card-composer) {
     border-radius: 8px;
     flex-shrink: 0;
     margin-bottom: 1px
-}
+}*/
 
 .list-card-cover {
     background-position: 50%;
@@ -11749,9 +11749,9 @@ body.ff-modernization-update :is(.list-card,.card-composer) {
     z-index: 10
 }
 
-body.ff-modernization-update .list-card-details {
+/*body.ff-modernization-update .list-card-details {
     padding: 8px 8px 4px 12px
-}
+}*/
 
 .list-card-operation {
     background-clip: padding-box;
@@ -11785,10 +11785,10 @@ body.ff-modernization-update .list-card-details {
     background-color: #454f59
 }
 
-body.ff-modernization-update .list-card-operation {
+/*body.ff-modernization-update .list-card-operation {
     border-radius: 8px;
     padding: 6px
-}
+}*/
 
 .list-card-title {
     word-wrap: break-word;
@@ -11842,21 +11842,21 @@ body.ff-modernization-update .list-card-operation {
     display: none
 }
 
-body.ff-modernization-update .list-card-members {
+/*body.ff-modernization-update .list-card-members {
     margin: 0
-}
+}*/
 
-body.ff-modernization-update .list-card-members .member,body.ff-modernization-update .list-card-members .member .member-avatar {
+/*body.ff-modernization-update .list-card-members .member,body.ff-modernization-update .list-card-members .member .member-avatar {
     height: 24px;
     width: 24px
-}
+}*/
 
-body.ff-modernization-update .list-card-members .member .member-initials {
+/*body.ff-modernization-update .list-card-members .member .member-initials {
     font-size: 10px;
     height: 24px;
     line-height: 24px;
     width: 24px
-}
+}*/
 
 .list-card-dropzone,.list-card-dropzone-limited,.list-card-dropzone-restricted {
     display: none
@@ -11891,9 +11891,9 @@ body.ff-modernization-update .list-card-members .member .member-initials {
     z-index: 40
 }
 
-body.ff-modernization-update .list-card.is-drophover .list-card-dropzone,body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-limited,body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-restricted {
+/*body.ff-modernization-update .list-card.is-drophover .list-card-dropzone,body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-limited,body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-restricted {
     border-radius: 8px
-}
+}*/
 
 .list-card-cover.is-no-preview-size {
     background-position: 50%;
@@ -11904,9 +11904,9 @@ body.ff-modernization-update .list-card.is-drophover .list-card-dropzone,body.ff
     border-radius: 3px 3px 0 0
 }
 
-body.ff-modernization-update .list-card.is-covered .list-card-cover {
+/*body.ff-modernization-update .list-card.is-covered .list-card-cover {
     border-radius: 8px 8px 0 0
-}
+}*/
 
 .list-card.is-stickered .list-card-cover {
     min-height: 1px
@@ -11933,9 +11933,9 @@ body.ff-modernization-update .list-card.is-covered .list-card-cover {
     margin-top: 0
 }
 
-body.ff-modernization-update .list-card.is-stickered .list-card-details {
+/*body.ff-modernization-update .list-card.is-stickered .list-card-details {
     border-radius: 0 0 8px 8px
-}
+}*/
 
 .list-card.active-card {
     background-color: var(--ds-surface-raised-hovered,#f4f5f7);
@@ -11975,9 +11975,9 @@ body.ff-modernization-update .list-card.is-stickered .list-card-details {
     border-radius: 3px
 }
 
-body.ff-modernization-update .list-card.ui-sortable-helper,body.ff-modernization-update .list-card.ui-sortable-helper .list-card-details {
+/*body.ff-modernization-update .list-card.ui-sortable-helper,body.ff-modernization-update .list-card.ui-sortable-helper .list-card-details {
     border-radius: 8px
-}
+}*/
 
 .list-card.placeholder {
     background-color: var(--ds-background-neutral,#091e420a);
@@ -12118,9 +12118,9 @@ body.ff-modernization-update .list-card.ui-sortable-helper,body.ff-modernization
     background-position: 0 100%,100% 100%,bottom 1px right 10px
 }
 
-body.ff-modernization-update .aging-pirate .list-card-details {
+/*body.ff-modernization-update .aging-pirate .list-card-details {
     border-radius: 0 0 8px 8px
-}
+}*/
 
 .full-cover-list-card {
     display: flex;
@@ -12192,13 +12192,13 @@ body.ff-modernization-update .aging-pirate .list-card-details {
     min-height: 120px
 }
 
-body.ff-modernization-update .full-cover-list-card .list-card-details:not(.list-card) {
+/*body.ff-modernization-update .full-cover-list-card .list-card-details:not(.list-card) {
     border-radius: 0
-}
+}*/
 
-body.ff-modernization-update .full-cover-list-card .list-card-details .list-card-title {
+/*body.ff-modernization-update .full-cover-list-card .list-card-details .list-card-title {
     padding-bottom: 4px
-}
+}*/
 
 .body-color-blind-mode-enabled .full-cover-list-card.color-card-cover .list-card-details {
     left: 16px;
@@ -12209,9 +12209,9 @@ body.ff-modernization-update .full-cover-list-card .list-card-details .list-card
     padding-right: 16px
 }
 
-.ff-modernization-update .body-color-blind-mode-enabled .full-cover-list-card.color-card-cover:before {
+/*.ff-modernization-update .body-color-blind-mode-enabled .full-cover-list-card.color-card-cover:before {
     border-bottom-left-radius: 8px
-}
+}*/
 
 .quick-card-editor {
     background: #0009;
@@ -12571,9 +12571,9 @@ body.ff-modernization-update .full-cover-list-card .list-card-details .list-card
     width: 100%
 }
 
-body.ff-modernization-update .window-cover {
+/*body.ff-modernization-update .window-cover {
     border-radius: 8px 8px 0 0
-}
+}*/
 
 .window-cover.has-attachment-cover {
     cursor: pointer
@@ -12661,9 +12661,9 @@ body.ff-modernization-update .window-cover {
     width: 16px
 }
 
-.ff-modernization-update .body-color-blind-mode-enabled .color-card-cover:before {
+/*.ff-modernization-update .body-color-blind-mode-enabled .color-card-cover:before {
     border-radius: 8px 0 0 0
-}
+}*/
 
 .color-card-cover.color-card-cover-blue {
     background-color: var(--ds-background-accent-blue-subtle,#5ba4cf);
@@ -12800,9 +12800,9 @@ body.ff-modernization-update .window-cover {
     min-height: 600px
 }
 
-body.ff-modernization-update .card-detail-window {
+/*body.ff-modernization-update .card-detail-window {
     border-radius: 8px
-}
+}*/
 
 .card-detail-item {
     display: block;
@@ -14045,9 +14045,9 @@ a.card-detail-badge-start-date-button:after.dark-background-hover:hover,a.dark-b
     transition: box-shadow 85ms ease
 }
 
-body.ff-modernization-update .comment-frame {
+/*body.ff-modernization-update .comment-frame {
     border-radius: 8px
-}
+}*/
 
 .comment-box {
     padding: 8px 12px;
@@ -14963,9 +14963,9 @@ a.checklist-add-controls-option:hover {
     color: var(--ds-text,#172b4d)
 }
 
-body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-board,body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-card {
+/*body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-board,body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-card {
     border-radius: 8px
-}
+}*/
 
 .custom-field-detail-badges-grid {
     grid-gap: 16px;
@@ -16464,10 +16464,10 @@ body.ff-modernization-update .trello-attachments-section .trello-attachment-cano
     top: 0
 }
 
-body.ff-modernization-update .map-wrapper {
+/*body.ff-modernization-update .map-wrapper {
     border-radius: 8px;
     margin: 12px 2px 2px
-}
+}*/
 
 .map-wrapper--workspace-nav-collapsed {
     left: 26px
@@ -16478,9 +16478,9 @@ body.ff-modernization-update .map-wrapper {
     height: 100%
 }
 
-body.ff-modernization-update #board-map-container {
+/*body.ff-modernization-update #board-map-container {
     border-radius: 8px
-}
+}*/
 
 .map-header-toolbar-right {
     margin: 8px;
@@ -16584,9 +16584,9 @@ a.card-back-location .card-back-location-footer .card-back-location-controls .ca
     text-decoration: none
 }
 
-body.ff-modernization-update .card-back-location {
+/*body.ff-modernization-update .card-back-location {
     border-radius: 8px
-}
+}*/
 
 button.current-location-button {
     -webkit-appearance: none;
@@ -18085,9 +18085,9 @@ button.current-location-button {
     max-height: 400px
 }
 
-body.ff-modernization-update .member-cards-board-lists .list-header-name {
+/*body.ff-modernization-update .member-cards-board-lists .list-header-name {
     padding: 4px 8px 0 12px
-}
+}*/
 
 .member-cards-list {
     display: flex;
@@ -18751,9 +18751,9 @@ a.org-members-filter-list .org-members-filter a:hover {
     margin-bottom: 0
 }
 
-body.ff-modernization-update .action-comment {
+/*body.ff-modernization-update .action-comment {
     border-radius: 8px
-}
+}*/
 
 .action-comment.full-width {
     width: 100%
