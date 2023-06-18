@@ -263,16 +263,16 @@ body.ff-modernization-update .full-cover-list-card .list-card-details .list-card
   padding-bottom: 4pxa;
 }
 
-.ff-modernization-update .body-color-blind-mode-enabled .full-cover-list-card.color-card-cover:before {
+body.ff-modernization-update .body-color-blind-mode-enabled .full-cover-list-card.color-card-cover:before {
   border-bottom-left-radius: 8pxa;
+}
+
+body.ff-modernization-update .body-color-blind-mode-enabled .color-card-cover:before {
+  border-radius: 8pxa 0pxa 0pxa 0pxa;
 }
 
 body.ff-modernization-update .window-cover {
   border-radius: 8pxa 8pxa 0pxa 0pxa;
-}
-
-.ff-modernization-update .body-color-blind-mode-enabled .color-card-cover:before {
-  border-radius: 8pxa 0pxa 0pxa 0pxa;
 }
 
 body.ff-modernization-update .card-detail-window {

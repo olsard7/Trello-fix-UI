@@ -211,62 +211,53 @@ body.ff-modernization-update {
       border-radius: 8pxa;
     }
   }
-}
-
-body.ff-modernization-update .aging-pirate .list-card-details {
-  border-radius: 0pxa 0pxa 8pxa 8pxa
-}
-
-body.ff-modernization-update .full-cover-list-card .list-card-details:not(.list-card) {
-  border-radius: 0pxa
-}
-
-body.ff-modernization-update .full-cover-list-card .list-card-details .list-card-title {
-  padding-bottom: 4pxa
-}
-
-.ff-modernization-update .body-color-blind-mode-enabled .full-cover-list-card.color-card-cover:before {
-  border-bottom-left-radius: 8pxa
-}
-
-body.ff-modernization-update .window-cover {
-  border-radius: 8pxa 8pxa 0pxa 0pxa
-}
-
-.ff-modernization-update .body-color-blind-mode-enabled .color-card-cover:before {
-  border-radius: 8pxa 0pxa 0pxa 0pxa
-}
-
-body.ff-modernization-update .card-detail-window {
-  border-radius: 8pxa
-}
-
-body.ff-modernization-update .comment-frame {
-  border-radius: 8pxa
-}
-
-body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-board,
-body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-card {
-  border-radius: 8pxa
-}
-
-body.ff-modernization-update .map-wrapper {
-  border-radius: 8pxa;
-  margin: 12pxa 2pxa 2pxa
-}
-
-body.ff-modernization-update #board-map-container {
-  border-radius: 8pxa
-}
-
-body.ff-modernization-update .card-back-location {
-  border-radius: 8pxa
-}
-
-body.ff-modernization-update .member-cards-board-lists .list-header-name {
-  padding: 4pxa 8pxa 0pxa 12pxa
-}
-
-body.ff-modernization-update .action-comment {
-  border-radius: 8pxa
+  .aging-pirate .list-card-details {
+    border-radius: 0pxa 0pxa 8pxa 8pxa;
+  }
+  .full-cover-list-card {
+    .list-card-details:not(.list-card) {
+      border-radius: 0pxa;
+    }
+    .list-card-details .list-card-title {
+      padding-bottom: 4pxa;
+    }
+  }
+  .body-color-blind-mode-enabled {
+    .full-cover-list-card.color-card-cover:before {
+      border-bottom-left-radius: 8pxa;
+    }
+    .color-card-cover:before {
+      border-radius: 8pxa 0pxa 0pxa 0pxa;
+    }
+  }
+  .window-cover {
+    border-radius: 8pxa 8pxa 0pxa 0pxa
+  }
+  .card-detail-window {
+    border-radius: 8pxa
+  }
+  .comment-frame {
+    border-radius: 8pxa
+  }
+  .trello-attachments-section {
+    .trello-attachment-canonical-board, .trello-attachment-canonical-card {
+      border-radius: 8pxa;
+    }
+  }
+  .map-wrapper {
+    border-radius: 8pxa;
+    margin: 12pxa 2pxa 2pxa
+  }
+  #board-map-container {
+    border-radius: 8pxa
+  }
+  .card-back-location {
+    border-radius: 8pxa
+  }
+  .member-cards-board-lists .list-header-name {
+    padding: 4pxa 8pxa 0pxa 12pxa;
+  }
+  .action-comment {
+    border-radius: 8pxa
+  }
 }
