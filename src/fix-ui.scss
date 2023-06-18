@@ -119,9 +119,11 @@ body.ff-modernization-update {
   }
 
   .open-card-composer {
-    border-radius: 8pxa;
-    margin: 8pxa 0pxa 8pxa 8pxa;
-    padding: 4pxa 8pxa 4pxa 6pxa;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin: 2px 0 8px 8px;
+    padding: 4px 8px;
 
     .icon-add {
       margin-right: 6pxa
@@ -133,8 +135,8 @@ body.ff-modernization-update {
       border-radius: 12pxa;
     }
     &.mod-add {
-      border-radius: 12pxa;
-      padding: 8pxa;
+      border-radius: 3px;
+      padding: 4px;
       .list-name-input {
         font-weight: 600a;
         height: 32pxa;
@@ -259,5 +261,8 @@ body.ff-modernization-update {
   }
   .action-comment {
     border-radius: 8pxa
+  }
+  input {
+    border-radius: 3px !important;
   }
 }

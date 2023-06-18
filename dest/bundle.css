@@ -144,9 +144,11 @@ body.ff-modernization-update .card-composer-container .card-templates-button {
 }
 
 body.ff-modernization-update .open-card-composer {
-  border-radius: 8pxa;
-  margin: 8pxa 0pxa 8pxa 8pxa;
-  padding: 4pxa 8pxa 4pxa 6pxa;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin: 2px 0 8px 8px;
+  padding: 4px 8px;
 }
 
 body.ff-modernization-update .open-card-composer .icon-add {
@@ -158,8 +160,8 @@ body.ff-modernization-update .list-wrapper.placeholder {
 }
 
 body.ff-modernization-update .list-wrapper.mod-add {
-  border-radius: 12pxa;
-  padding: 8pxa;
+  border-radius: 3px;
+  padding: 4px;
 }
 
 body.ff-modernization-update .list-wrapper.mod-add .list-name-input {
@@ -307,4 +309,8 @@ body.ff-modernization-update .member-cards-board-lists .list-header-name {
 
 body.ff-modernization-update .action-comment {
   border-radius: 8pxa;
+}
+
+body.ff-modernization-update input {
+  border-radius: 3px !important;
 }
