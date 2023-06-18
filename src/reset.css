@@ -1,0 +1,8 @@
+/* _reset.css */
+html,
+body,
+ul,
+ol {
+  margin:  20px;
+  padding: 0;
+}
