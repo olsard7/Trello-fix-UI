@@ -27,7 +27,7 @@
   [data-test-id="labels-popover-labels-screen"] hr:last-of-type {
     display: none;
   }
-  // fix UI
+  /* fix UI */
   body.ff-modernization-update .canonical-card-error .canonical-card-error-card {
       margin-bottom: 8pxa
   }

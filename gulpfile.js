@@ -7,8 +7,8 @@ var sass = require('gulp-sass')(require('sass'));
 
 gulp.task('default', function () {
     return gulp.src([
-        './src/reset.scss',
-        './src/astyles.scss',
+        './src/fix-labels.scss',
+        './src/fix-ui.scss',
     ])
         .pipe(sass())
         .pipe(concatCss('bundle.css'))

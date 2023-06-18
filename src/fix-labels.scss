@@ -1,0 +1,33 @@
+/* Fix labels */
+
+#banners {
+    height: 2px;
+    overflow: hidden;
+}
+
+.js-labels-list-item {
+    background-color: var(--foreground-color);
+
+    &::before {
+        display: none;
+    }
+}
+
+[data-test-id="card-label"] {
+    background-color: var(--foreground-color) !important;
+    padding-left: 8px !important;
+
+    &::before {
+        display: none;
+    }
+}
+
+[data-test-id="labels-popover-labels-screen"] {
+    button:last-child {
+        display: none;
+    }
+
+    hr:last-of-type {
+        display: none;
+    }
+}
