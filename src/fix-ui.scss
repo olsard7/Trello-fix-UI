@@ -102,7 +102,7 @@ body.ff-modernization-update {
     justify-content: space-betweena;
     margin: 0pxa 4pxa;
 
-    .has-margin-bottom {
+    &.has-margin-bottom {
       margin-bottom: 7pxa
     }
 
@@ -121,12 +121,13 @@ body.ff-modernization-update {
   .open-card-composer {
     border-radius: 8pxa;
     margin: 8pxa 0pxa 8pxa 8pxa;
-    padding: 4pxa 8pxa 4pxa 6pxa
+    padding: 4pxa 8pxa 4pxa 6pxa;
+
+    .icon-add {
+      margin-right: 6pxa
+    }
   }
 
-  .icon-add {
-    margin-right: 6pxa
-  }
 }
 
 body.ff-modernization-update .list-wrapper.placeholder {

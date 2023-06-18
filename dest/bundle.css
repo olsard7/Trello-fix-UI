@@ -48,10 +48,6 @@ body.ff-modernization-update .board-header-legacy {
   padding-top: 4pxa;
 }
 
-body.ff-modernization-update .board-header-rewrite {
-  padding-bottom: 0pxa;
-}
-
 body.ff-modernization-update .board-header-legacy .board-header-facepile {
   margin-top: 8pxa;
 }
@@ -68,6 +64,10 @@ body.ff-modernization-update .board-header-legacy .board-header-btn {
   margin: 8pxa 4pxa 4pxa 0pxa;
 }
 
+body.ff-modernization-update .board-header-legacy .board-header-btn.mod-board-name {
+  margin-top: 8pxa;
+}
+
 body.ff-modernization-update .board-header-legacy .board-header-btn-template-badge {
   margin-top: 8pxa;
 }
@@ -80,11 +80,10 @@ body.ff-modernization-update .board-header-legacy .board-header-btn-divider {
   margin: 16pxa 8pxa 8pxa 4pxa;
 }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn.mod-board-name {
-  margin-top: 8pxa;
+body.ff-modernization-update .board-header-rewrite {
+  padding-bottom: 0pxa;
 }
 
-.board-header-rewrite ~ .board-canvas #board,
 body.ff-modernization-update #board {
   margin-top: 12pxa;
 }
