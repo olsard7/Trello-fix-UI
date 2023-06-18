@@ -128,46 +128,43 @@ body.ff-modernization-update {
     }
   }
 
-}
-
-body.ff-modernization-update .list-wrapper.placeholder {
-  border-radius: 12pxa
-}
-
-body.ff-modernization-update .list-wrapper.mod-add {
-  border-radius: 12pxa;
-  padding: 8pxa
-}
-
-body.ff-modernization-update .list-wrapper.mod-add .list-name-input {
-  font-weight: 600a;
-  height: 32pxa
-}
-
-body.ff-modernization-update .list-wrapper.mod-add .list-name-input::placeholder {
-  font-weight: 400a
-}
-
-body.ff-modernization-update .list-wrapper.mod-add .list-add-controls {
-  margin: 8pxa 0pxa 0pxa
-}
-
-body.ff-modernization-update .list-wrapper.mod-add.is-idle .list-add-controls {
-  height: 0pxa;
-  margin: 0pxa
-}
-
-body.ff-modernization-update textarea.mod-list-name {
-  padding: 4pxa 8pxa 4pxa 12pxa;
-  width: 224pxa
-}
-
-body.ff-modernization-update .card-composer {
-  padding-bottom: 0pxa
-}
-
-body.ff-modernization-update .cc-controls {
-  margin-top: 8pxa
+  .list-wrapper {
+    &.placeholder {
+      border-radius: 12pxa;
+    }
+    &.mod-add {
+      border-radius: 12pxa;
+      padding: 8pxa;
+      .list-name-input {
+        font-weight: 600a;
+        height: 32pxa;
+        &::placeholder {
+          font-weight: 400a;
+        }
+      }
+      .list-add-controls {
+        margin: 8pxa 0pxa 0pxa;
+      }
+      &.is-idle {
+        .list-add-controls {
+          height: 0pxa;
+          margin: 0pxa;    
+        }
+      }
+    }
+  }
+  textarea {
+    &.mod-list-name {
+      padding: 4pxa 8pxa 4pxa 12pxa;
+      width: 224pxa;    
+    }
+  }
+  .card-composer {
+    padding-bottom: 0pxa;
+  }
+  .cc-controls {
+    margin-top: 8pxa;
+  }
 }
 
 body.ff-modernization-update :is(.list-card, .card-composer) {
