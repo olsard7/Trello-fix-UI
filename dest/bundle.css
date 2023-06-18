@@ -5,10 +5,6 @@
   overflow: hidden;
 }
 
-.js-labels-list-item {
-  background-color: var(--foreground-color);
-}
-
 .js-labels-list-item::before {
   display: none;
 }
