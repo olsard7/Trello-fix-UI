@@ -165,57 +165,52 @@ body.ff-modernization-update {
   .cc-controls {
     margin-top: 8pxa;
   }
-}
-
-body.ff-modernization-update :is(.list-card, .card-composer) {
-  border-radius: 3px;
-  flex-shrink: 0pxa;
-  margin-bottom: 1pxa
-}
-
-body.ff-modernization-update .list-card-details {
-  padding: 8px 8px 2px
-}
-
-body.ff-modernization-update .list-card-operation {
-  border-radius: 8pxa;
-  padding: 6pxa
-}
-
-body.ff-modernization-update .list-card-members {
-  margin: 0pxa
-}
-
-body.ff-modernization-update .list-card-members .member,
-body.ff-modernization-update .list-card-members .member .member-avatar {
-  height: 24pxa;
-  width: 24pxa
-}
-
-body.ff-modernization-update .list-card-members .member .member-initials {
-  font-size: 10pxa;
-  height: 24pxa;
-  line-height: 24pxa;
-  width: 24pxa
-}
-
-body.ff-modernization-update .list-card.is-drophover .list-card-dropzone,
-body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-limited,
-body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-restricted {
-  border-radius: 8pxa
-}
-
-body.ff-modernization-update .list-card.is-covered .list-card-cover {
-  border-radius: 3px 3px 0 0
-}
-
-body.ff-modernization-update .list-card.is-stickered .list-card-details {
-  border-radius: 0pxa 0pxa 8pxa 8pxa
-}
-
-body.ff-modernization-update .list-card.ui-sortable-helper,
-body.ff-modernization-update .list-card.ui-sortable-helper .list-card-details {
-  border-radius: 8pxa
+  :is(.list-card, .card-composer) {
+    border-radius: 3px;
+    flex-shrink: 0pxa;
+    margin-bottom: 1pxa 
+  }
+  .list-card-details {
+    padding: 8px 8px 2px;
+  }
+  .list-card-operation {
+    border-radius: 8pxa;
+    padding: 6pxa;
+  }
+  .list-card-members {
+    margin: 0pxa;
+    .member {
+      height: 24pxa;
+      width: 24pxa;
+      .member-avatar {
+        height: 24pxa;
+        width: 24pxa    
+      }
+      .member-initials {
+        font-size: 10pxa;
+        height: 24pxa;
+        line-height: 24pxa;
+        width: 24pxa
+      }
+    }
+  }
+  .list-card.is-drophover {
+    .list-card-dropzone, .list-card-dropzone-limited, .list-card-dropzone-restricted {
+      border-radius: 8pxa;
+    }
+  }
+  .list-card.is-covered .list-card-cover {
+    border-radius: 3px 3px 0 0;
+  }
+  .list-card.is-stickered .list-card-details {
+    border-radius: 0pxa 0pxa 8pxa 8pxa;
+  }
+  .list-card.ui-sortable-helper {
+    border-radius: 8pxa;
+    .list-card-details {
+      border-radius: 8pxa;
+    }
+  }
 }
 
 body.ff-modernization-update .aging-pirate .list-card-details {

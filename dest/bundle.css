@@ -212,7 +212,11 @@ body.ff-modernization-update .list-card-members {
   margin: 0pxa;
 }
 
-body.ff-modernization-update .list-card-members .member,
+body.ff-modernization-update .list-card-members .member {
+  height: 24pxa;
+  width: 24pxa;
+}
+
 body.ff-modernization-update .list-card-members .member .member-avatar {
   height: 24pxa;
   width: 24pxa;
@@ -239,7 +243,10 @@ body.ff-modernization-update .list-card.is-stickered .list-card-details {
   border-radius: 0pxa 0pxa 8pxa 8pxa;
 }
 
-body.ff-modernization-update .list-card.ui-sortable-helper,
+body.ff-modernization-update .list-card.ui-sortable-helper {
+  border-radius: 8pxa;
+}
+
 body.ff-modernization-update .list-card.ui-sortable-helper .list-card-details {
   border-radius: 8pxa;
 }
