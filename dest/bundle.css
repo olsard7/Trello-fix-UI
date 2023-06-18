@@ -1,16 +1,16 @@
 /* Fix labels */
 
-.js-labels-list-item::before {
-  display: none;
+#banners {
+  height: 2px;
+  overflow: hidden;
 }
 
 .js-labels-list-item {
   background-color: var(--foreground-color);
 }
 
-#banners {
-  height: 2px;
-  overflow: hidden;
+.js-labels-list-item::before {
+  display: none;
 }
 
 [data-test-id=card-label] {

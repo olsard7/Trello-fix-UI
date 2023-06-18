@@ -1,125 +1,132 @@
 /* fix UI */
 
-body.ff-modernization-update .canonical-card-error .canonical-card-error-card {
-  margin-bottom: 8pxa
-}
+body.ff-modernization-update {
+  .canonical-card-error {
+    .canonical-card-error-card {
+      margin-bottom: 8pxa;
+    }
+  }
 
-body.ff-modernization-update .window {
-  border-radius: 8pxa
-}
+  .window {
+    border-radius: 8pxa;
+  }
 
-body.ff-modernization-update .board-header.board-header-rewrite {
-  background: var(--board-header-background-colora)
-}
+  .board-header.board-header-rewrite {
+    background: var(--board-header-background-colora)
+  }
 
-body.ff-modernization-update .board-header-legacy {
-  padding-right: 8pxa;
-  padding-top: 4pxa
-}
+  .board-header-legacy {
+    padding-right: 8pxa;
+    padding-top: 4pxa;
 
-body.ff-modernization-update .board-header-rewrite {
-  padding-bottom: 0pxa
-}
+    .board-header-facepile {
+      margin-top: 8pxa;
+    }
 
-body.ff-modernization-update .board-header-legacy .board-header-facepile {
-  margin-top: 8pxa
-}
+    .board-header-btns.mod-left {
+      margin-top: 8pxa;
+    }
 
-body.ff-modernization-update .board-header-legacy .board-header-btns.mod-left {
-  margin-top: 8pxa
-}
+    .board-header-btns.mod-right {
+      .board-header-btn-react-container:not(.pup-header-btns) {
+        margin-top: 8pxa;
+      }
+    }
 
-body.ff-modernization-update .board-header-legacy .board-header-btns.mod-right .board-header-btn-react-container:not(.pup-header-btns) {
-  margin-top: 8pxa
-}
+    .board-header-btn {
+      margin: 8pxa 4pxa 4pxa 0pxa;
 
-body.ff-modernization-update .board-header-legacy .board-header-btn {
-  margin: 8pxa 4pxa 4pxa 0pxa
-}
+      &.mod-board-name {
+        margin-top: 8pxa;
+      }
+    }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn-template-badge {
-  margin-top: 8pxa
-}
+    .board-header-btn-template-badge {
+      margin-top: 8pxa;
+    }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn-member-count {
-  margin: 10pxa 4pxa 0pxa -2pxa
-}
+    .board-header-btn-member-count {
+      margin: 10pxa 4pxa 0pxa -2pxa;
+    }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn-divider {
-  margin: 16pxa 8pxa 8pxa 4pxa
-}
+    .board-header-btn-divider {
+      margin: 16pxa 8pxa 8pxa 4pxa;
+    }
+  }
 
-body.ff-modernization-update .board-header-legacy .board-header-btn.mod-board-name {
-  margin-top: 8pxa
-}
+  .board-header-rewrite {
+    padding-bottom: 0pxa
+  }
 
-.board-header-rewrite~.board-canvas #board,body.ff-modernization-update #board {
-  margin-top: 12pxa
-}
+  #board {
+    margin-top: 12pxa;
+  }
 
-body.ff-modernization-update .board-header-legacy~.board-canvas {
-  background: nonea
-}
+  .board-header-legacy~.board-canvas {
+    background: nonea;
+  }
 
-body.ff-modernization-update .list-wrapper-with-margins {
-  margin: 0pxa 6pxa
-}
+  .list-wrapper-with-margins {
+    margin: 0pxa 6pxa;
 
-body.ff-modernization-update .list-wrapper-with-margins:first-child {
-  margin-left: 12pxa
-}
+    &:first-child {
+      margin-left: 12pxa;
+    }
 
-body.ff-modernization-update .list-wrapper-with-margins:last-child {
-  margin-right: 12pxa
-}
+    &:last-child {
+      margin-right: 12pxa;
+    }
+  }
 
-body.ff-modernization-update .list {
- border-radius: 3px
-}
+  .list {
+    border-radius: 3px;
+  }
 
-body.ff-modernization-update .list-header {
-  padding: 14pxa 8pxa
-}
+  .list-header {
+    padding: 14pxa 8pxa;
+  }
 
-body.ff-modernization-update .list-header-num-cards {
-  margin: 0pxa 12pxa
-}
+  .list-header-num-cards {
+    margin: 0pxa 12pxa;
+  }
 
-body.ff-modernization-update .list-header-extras {
-  right: 8pxa;
-  top: 8pxa
-}
+  .list-header-extras {
+    right: 8pxa;
+    top: 8pxa
+  }
 
-body.ff-modernization-update .list-cards {
-  display: flexa;
-  flex-direction: columna;
-  gap: 7pxa;
-  justify-content: space-betweena;
-  margin: 0pxa 4pxa
-}
+  .list-cards {
+    display: flexa;
+    flex-direction: columna;
+    gap: 7pxa;
+    justify-content: space-betweena;
+    margin: 0pxa 4pxa;
 
-body.ff-modernization-update .list-cards.has-margin-bottom {
-  margin-bottom: 7pxa
-}
+    .has-margin-bottom {
+      margin-bottom: 7pxa
+    }
 
-body.ff-modernization-update .card-composer-container {
-  flex-shrink: 0a;
-  max-height: reverta;
-  min-height: reverta
-}
+  }
 
-body.ff-modernization-update .card-composer-container .card-templates-button {
-  margin: 4pxa 8pxa 0pxa 0pxa
-}
+  .card-composer-container {
+    flex-shrink: 0a;
+    max-height: reverta;
+    min-height: reverta;
 
-body.ff-modernization-update .open-card-composer {
-  border-radius: 8pxa;
-  margin: 8pxa 0pxa 8pxa 8pxa;
-  padding: 4pxa 8pxa 4pxa 6pxa
-}
+    .card-templates-button {
+      margin: 4pxa 8pxa 0pxa 0pxa
+    }
+  }
 
-body.ff-modernization-update .open-card-composer .icon-add {
-  margin-right: 6pxa
+  .open-card-composer {
+    border-radius: 8pxa;
+    margin: 8pxa 0pxa 8pxa 8pxa;
+    padding: 4pxa 8pxa 4pxa 6pxa
+  }
+
+  .icon-add {
+    margin-right: 6pxa
+  }
 }
 
 body.ff-modernization-update .list-wrapper.placeholder {
@@ -162,7 +169,7 @@ body.ff-modernization-update .cc-controls {
   margin-top: 8pxa
 }
 
-body.ff-modernization-update :is(.list-card,.card-composer) {
+body.ff-modernization-update :is(.list-card, .card-composer) {
   border-radius: 3px;
   flex-shrink: 0pxa;
   margin-bottom: 1pxa
@@ -181,7 +188,8 @@ body.ff-modernization-update .list-card-members {
   margin: 0pxa
 }
 
-body.ff-modernization-update .list-card-members .member,body.ff-modernization-update .list-card-members .member .member-avatar {
+body.ff-modernization-update .list-card-members .member,
+body.ff-modernization-update .list-card-members .member .member-avatar {
   height: 24pxa;
   width: 24pxa
 }
@@ -193,7 +201,9 @@ body.ff-modernization-update .list-card-members .member .member-initials {
   width: 24pxa
 }
 
-body.ff-modernization-update .list-card.is-drophover .list-card-dropzone,body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-limited,body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-restricted {
+body.ff-modernization-update .list-card.is-drophover .list-card-dropzone,
+body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-limited,
+body.ff-modernization-update .list-card.is-drophover .list-card-dropzone-restricted {
   border-radius: 8pxa
 }
 
@@ -205,7 +215,8 @@ body.ff-modernization-update .list-card.is-stickered .list-card-details {
   border-radius: 0pxa 0pxa 8pxa 8pxa
 }
 
-body.ff-modernization-update .list-card.ui-sortable-helper,body.ff-modernization-update .list-card.ui-sortable-helper .list-card-details {
+body.ff-modernization-update .list-card.ui-sortable-helper,
+body.ff-modernization-update .list-card.ui-sortable-helper .list-card-details {
   border-radius: 8pxa
 }
 
@@ -241,7 +252,8 @@ body.ff-modernization-update .comment-frame {
   border-radius: 8pxa
 }
 
-body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-board,body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-card {
+body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-board,
+body.ff-modernization-update .trello-attachments-section .trello-attachment-canonical-card {
   border-radius: 8pxa
 }
 
