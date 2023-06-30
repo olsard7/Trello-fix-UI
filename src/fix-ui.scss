@@ -266,3 +266,270 @@ body.ff-modernization-update {
     border-radius: 3px !important;
   }
 }
+
+body {
+  .canonical-card-error {
+    .canonical-card-error-card {
+      margin-bottom: 8pxa;
+    }
+  }
+
+  .window {
+    border-radius: 2px;
+  }
+
+  .board-header.board-header-rewrite {
+    background: var(--board-header-background-colora)
+  }
+
+  .board-header-legacy {
+    padding-right: 8pxa;
+    padding-top: 4pxa;
+
+    .board-header-facepile {
+      margin-top: 8pxa;
+    }
+
+    .board-header-btns.mod-left {
+      margin-top: 8pxa;
+    }
+
+    .board-header-btns.mod-right {
+      .board-header-btn-react-container:not(.pup-header-btns) {
+        margin-top: 8pxa;
+      }
+    }
+
+    .board-header-btn {
+      margin: 8pxa 4pxa 4pxa 0pxa;
+
+      &.mod-board-name {
+        margin-top: 8pxa;
+      }
+    }
+
+    .board-header-btn-template-badge {
+      margin-top: 8pxa;
+    }
+
+    .board-header-btn-member-count {
+      margin: 10pxa 4pxa 0pxa -2pxa;
+    }
+
+    .board-header-btn-divider {
+      margin: 16pxa 8pxa 8pxa 4pxa;
+    }
+  }
+
+  .board-header-rewrite {
+    padding-bottom: 0pxa
+  }
+
+  #board {
+    margin-top: 12pxa;
+  }
+
+  .board-header-legacy~.board-canvas {
+    background: nonea;
+  }
+
+  .list-wrapper-with-margins {
+    margin: 0pxa 6pxa;
+
+    &:first-child {
+      margin-left: 12pxa;
+    }
+
+    &:last-child {
+      margin-right: 12pxa;
+    }
+  }
+
+  .list {
+    border-radius: 3px;
+  }
+
+  .list-header {
+    padding: 14pxa 8pxa;
+  }
+
+  .list-header-num-cards {
+    margin: 0pxa 12pxa;
+  }
+
+  .list-header-extras {
+    right: 8pxa;
+    top: 8pxa
+  }
+
+  .list-cards {
+    display: flexa;
+    flex-direction: columna;
+    gap: 7pxa;
+    justify-content: space-betweena;
+    margin: 0pxa 4pxa;
+
+    &.has-margin-bottom {
+      margin-bottom: 7pxa
+    }
+
+  }
+
+  .card-composer-container {
+    flex-shrink: 0a;
+    max-height: reverta;
+    min-height: reverta;
+
+    .card-templates-button {
+      margin: 4pxa 8pxa 0pxa 0pxa
+    }
+  }
+
+  .open-card-composer {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin: 2px 0 8px 8px;
+    padding: 4px 8px;
+
+    .icon-add {
+      margin-right: 6pxa
+    }
+  }
+
+  .list-wrapper {
+    &.placeholder {
+      border-radius: 3px;
+    }
+    &.mod-add {
+      border-radius: 3px;
+      padding: 4px;
+      .list-name-input {
+        font-weight: 600a;
+        height: 32pxa;
+        &::placeholder {
+          font-weight: 400a;
+        }
+      }
+      .list-add-controls {
+        margin: 8pxa 0pxa 0pxa;
+      }
+      &.is-idle {
+        .list-add-controls {
+          height: 0pxa;
+          margin: 0pxa;    
+        }
+      }
+    }
+  }
+  textarea {
+    &.mod-list-name {
+      padding: 4pxa 8pxa 4pxa 12pxa;
+      width: 224pxa;    
+    }
+  }
+  .card-composer {
+    padding-bottom: 0pxa;
+  }
+  .cc-controls {
+    margin-top: 8pxa;
+  }
+  :is(.list-card, .card-composer) {
+    border-radius: 3px;
+    flex-shrink: 0pxa;
+    margin-bottom: 1pxa 
+  }
+  .list-card-details {
+    padding: 8px 8px 2px;
+  }
+  .list-card-operation {
+    border-radius: 8pxa;
+    padding: 6pxa;
+  }
+  .list-card-members {
+    margin: 0pxa;
+    .member {
+      height: 24pxa;
+      width: 24pxa;
+      .member-avatar {
+        height: 24pxa;
+        width: 24pxa    
+      }
+      .member-initials {
+        font-size: 10pxa;
+        height: 24pxa;
+        line-height: 24pxa;
+        width: 24pxa
+      }
+    }
+  }
+  .list-card.is-drophover {
+    .list-card-dropzone, .list-card-dropzone-limited, .list-card-dropzone-restricted {
+      border-radius: 8pxa;
+    }
+  }
+  .list-card.is-covered .list-card-cover {
+    border-radius: 3px 3px 0 0;
+  }
+  .list-card.is-stickered .list-card-details {
+    border-radius: 0pxa 0pxa 8pxa 8pxa;
+  }
+  .list-card.ui-sortable-helper {
+    border-radius: 8pxa;
+    .list-card-details {
+      border-radius: 8pxa;
+    }
+  }
+  .aging-pirate .list-card-details {
+    border-radius: 0pxa 0pxa 8pxa 8pxa;
+  }
+  .full-cover-list-card {
+    .list-card-details:not(.list-card) {
+      border-radius: 0pxa;
+    }
+    .list-card-details .list-card-title {
+      padding-bottom: 4pxa;
+    }
+  }
+  .body-color-blind-mode-enabled {
+    .full-cover-list-card.color-card-cover:before {
+      border-bottom-left-radius: 8pxa;
+    }
+    .color-card-cover:before {
+      border-radius: 8pxa 0pxa 0pxa 0pxa;
+    }
+  }
+  .window-cover {
+    border-radius: 2px 2px 0 0;
+  }
+  .card-detail-window {
+    border-radius: 8pxa
+  }
+  .comment-frame {
+    border-radius: 8pxa
+  }
+  .trello-attachments-section {
+    .trello-attachment-canonical-board, .trello-attachment-canonical-card {
+      border-radius: 8pxa;
+    }
+  }
+  .map-wrapper {
+    border-radius: 8pxa;
+    margin: 12pxa 2pxa 2pxa
+  }
+  #board-map-container {
+    border-radius: 8pxa
+  }
+  .card-back-location {
+    border-radius: 8pxa
+  }
+  .member-cards-board-lists .list-header-name {
+    padding: 4pxa 8pxa 0pxa 12pxa;
+  }
+  .action-comment {
+    border-radius: 8pxa
+  }
+  input {
+    border-radius: 3px !important;
+  }
+}
